@@ -1,0 +1,57 @@
+1618818922495	geckodriver	INFO	Listening on 127.0.0.1:53859
+1618819195618	geckodriver	INFO	Listening on 127.0.0.1:54064
+1618819281629	geckodriver	INFO	Listening on 127.0.0.1:54074
+1618819465640	geckodriver	INFO	Listening on 127.0.0.1:54156
+1618819505598	geckodriver	INFO	Listening on 127.0.0.1:54170
+1618819534123	geckodriver	INFO	Listening on 127.0.0.1:54180
+1618820421579	geckodriver	INFO	Listening on 127.0.0.1:54760
+1618820424656	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AISHWA~1\\AppData\\Local\\Temp\\rust_mozprofilemlJETA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618820429983	Marionette	INFO	Listening on port 54768
+1618820430496	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+1618820436076	Marionette	INFO	Stopped listening on port 54768
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1618820442549	geckodriver	INFO	Listening on 127.0.0.1:54811
+1618820445908	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AISHWA~1\\AppData\\Local\\Temp\\rust_mozprofileoouUVR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1618820452107	Marionette	INFO	Listening on port 54819
+1618820452228	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 11696, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1618820459720	Marionette	INFO	Stopped listening on port 54819
+[Parent 11696, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1620929055942	geckodriver	INFO	Listening on 127.0.0.1:55814
+1620929059162	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AISHWA~1\\AppData\\Local\\Temp\\rust_mozprofileiKa7bm"
+1620929060197	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620929065509	Marionette	INFO	Listening on port 55822
+[Parent 8108, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1620929066241	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620929084948	Marionette	INFO	Stopped listening on port 55822
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620929108692	geckodriver	INFO	Listening on 127.0.0.1:55909
+1620929111814	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\AISHWA~1\\AppData\\Local\\Temp\\rust_mozprofile1HvWoU"
+1620929112602	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1620929116929	Marionette	INFO	Listening on port 55917
+1620929117108	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620929133722	Marionette	INFO	Stopped listening on port 55917
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1622312044620	geckodriver	INFO	Listening on 127.0.0.1:51386
+1622312047699	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "-foreground" "-no-remote" "-profile" "C:\\Users\\AISHWA~1\\AppData\\Local\\Temp\\rust_mozprofileXLLh0B"
+*** You are running in headless mode.
+1622312053307	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1622312066295	Marionette	INFO	Listening on port 51394
+1622312067167	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://www.amazon.in/ line 6 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
+JavaScript warning: https://www.amazon.in/ line 6 > injectedScript, line 1: Failed to create WebGL context: WebGL creation failed: 
+* Can't use WebGL in headless mode (https://bugzil.la/1375585).
