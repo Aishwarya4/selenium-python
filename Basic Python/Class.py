@@ -1,3 +1,4 @@
+#This is class file
 class Myclass:
     def myfunc(self):#self keyword tells that this method belongs to the Myclass
         pass
