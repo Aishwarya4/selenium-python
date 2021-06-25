@@ -6,7 +6,7 @@ import time
 driver= webdriver.Edge(executable_path="E:\Selenium_using_python\chromedriver.exe")
 
 driver.get("http://demo.automationtesting.in/Windows.html")
-driver.refresh()
+driver.refresh() #This is refresh
 print(driver.title)   #Return title of the page
 print(driver.current_url)  #Return the URL of the page
 print(driver.page_source)   #Return HTML code for the page
