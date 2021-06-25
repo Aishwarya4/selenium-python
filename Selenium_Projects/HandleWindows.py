@@ -1,5 +1,6 @@
 from selenium import webdriver
 import time
+
 # open chrome browser
 driver = webdriver.Chrome(executable_path=r'E:\Selenium_using_python\chromedriver.exe')
 # set implicit time to 30 seconds
