@@ -1,8 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-driver= webdriver.Edge(executable_path="E:\Selenium_using_python\chromedriver.exe")
-#driver = webdriver.Chrome(executable_path="E:\Selenium using python\chromedriver.exe")
+
+driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
 
 driver.implicitly_wait(5)
 driver.get("https://www.abhibus.com/")

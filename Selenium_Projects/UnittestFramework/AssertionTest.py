@@ -3,7 +3,7 @@ from selenium import webdriver
 
 class Assert_Test(unittest.TestCase):
     def testName(self):
-        driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+        driver = webdriver.Chrome(executable_path="/chromedriver.exe")
         # driver.get("https://www.google.com/")
         # title = driver.title
 
