@@ -1,6 +1,8 @@
 from selenium import webdriver
 import time
 
+from selenium.webdriver import ActionChains
+
 driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
 driver.get("https://www.nationsonline.org/oneworld/countries_of_the_world.htm")
 
@@ -15,7 +17,13 @@ driver.get("https://www.nationsonline.org/oneworld/countries_of_the_world.htm")
 # time.sleep(10)
 
 #Scroll down till page end
-driver.execute_script("window.scrollBy(0,document.body.scrollHeight)")
+# driver.execute_script("window.scrollBy(0,document.body.scrollHeight)")
+# time.sleep(10)
+
+#Using Action Class
+l=driver.find_element_by_xpath("//a[normalize-space()='Colombia']")
+a = ActionChains(driver)
+a.move_to_element(l).perform()
 time.sleep(10)
 
 driver.close()
