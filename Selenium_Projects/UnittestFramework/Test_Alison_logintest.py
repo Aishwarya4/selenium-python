@@ -1,12 +1,12 @@
-from selenium import webdriver
 import unittest
+from selenium import webdriver
 import HtmlTestRunner
 
 class AlisonTest(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+        cls.driver = webdriver.Chrome(executable_path="E:\Selenium_using_python/chromedriver.exe")
         cls.driver.maximize_window()
 
     def test_homepageTitle(self):
