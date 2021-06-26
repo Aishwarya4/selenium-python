@@ -1,5 +1,4 @@
 from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
 
 #driver=webdriver.Chrome(executable_path="E:\Selenium using python\chromedriver.exe")
 driver=webdriver.Edge(executable_path="E:\Selenium_using_python\chromedriver.exe")

@@ -9,7 +9,6 @@ print("Number of rows present in table:",rows)
 cols = len(driver.find_elements_by_xpath("/html[1]/body[1]/div[7]/div[1]/div[1]/div[3]/div[1]/table[1]/tbody[1]/tr[1]/th"))
 print("Number of column in table:",cols)
 
-
 print("Company"+"                            "+"Contact"+"       "+"Country")
 
 for r in range(2, rows+1):

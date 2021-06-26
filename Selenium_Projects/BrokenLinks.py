@@ -12,8 +12,6 @@ links = driver.find_elements_by_css_selector("a")
 #     r = requests.head(link.get_attribute('href'))
 #     print(link.get_attribute('href'), r.status_code)
 
-
-
 for link in links:
 
   if (requests.head(link.get_attribute('href')).status_code == 200):
