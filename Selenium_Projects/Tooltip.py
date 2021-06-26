@@ -1,5 +1,5 @@
 import time
-
+#Tooltip
 from selenium import webdriver
 from selenium.webdriver import ActionChains
 driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
