@@ -5,7 +5,7 @@ class TestAlison():
 
     @pytest.fixture()
     def setup(self):
-        self.driver = webdriver.Chrome(executable_path="E:\Selenium_using_python\chromedriver.exe")
+        self.driver = webdriver.Chrome(executable_path="/chromedriver.exe")
         self.driver.maximize_window()
         yield
         self.driver.close()

@@ -13,6 +13,7 @@ from selenium import webdriver
 # driver= webdriver.Firefox(executable_path="E:\Selenium_using_python\geckodriver.exe")
 driver= webdriver.Edge(executable_path="E:\Selenium_using_python\msedgedriver.exe")
 # driver.get("http://www.facebook.com")
+driver.refresh()
 # print(driver.title)   #Return title of the page
 # print(driver.current_url)  #Return the URL of the page
 # print(driver.page_source)   #Return HTML code for the page
