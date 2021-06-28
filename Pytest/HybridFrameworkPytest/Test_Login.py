@@ -1,5 +1,6 @@
+import time
 from LoginPage import LoginPage
-# import pytest
+import pytest
 from selenium import webdriver
 class Test_001_Login:
     baseURL = "https://admin-demo.nopcommerce.com/"
@@ -15,7 +16,8 @@ class Test_001_Login:
             assert True
             self.driver.close()
         else:
-            self.driver.get_screenshot_as_file("E:\\Software_Testing\\test_screenshot\\test_homePageTitle.png")
+            time.sleep(10)
+            self.driver.save_screenshot("E:\\Software_Testing\\test_screenshot\\test_homePageTitle.png")
             self.driver.close()
             assert False
 
