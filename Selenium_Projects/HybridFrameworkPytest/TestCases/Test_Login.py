@@ -1,4 +1,4 @@
-from Selenium_Projects.HybridFrameworkPytest.PageObjects.LoginPage import LoginPage
+from LoginPage import LoginPage
 
 class Test_001_Login:
     baseURL = "https://admin-demo.nopcommerce.com/"
